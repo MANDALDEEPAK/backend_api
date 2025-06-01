@@ -14,7 +14,7 @@ const app = express();
 
 //data base connect
 
-mongoose.connect('mongodb+srv://DeepakMandal:Deepak@123@cluster0.m9cnqnn.mongodb.net//Shopify').then((val) => {
+mongoose.connect('mongodb+srv://DeepakMandal:Deepak@123@cluster0.m9cnqnn.mongodb.net/Shopify').then((val) => {
 
   app.listen(5000, () => {
     console.log('database connected and server is listening');
